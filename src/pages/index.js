@@ -12,15 +12,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.heroImage)}>
       <div className="container">
-        <h1 className="hero__title">Hello, my name is Logan Zehm.</h1>
-        <h2 className="hero__subtitle">I am a fullstack developer.</h2>
-        <div className={styles.buttons}>
+        <h1 className="hero__title">Hello, my name is Asaduzzaman Sunam.</h1>
+        <h2 className="hero__subtitle">I am a junior fullstack developer.</h2>
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="my-projects/project-viznet">
             Check out some of my personal projects
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={'Logan Zehm'}
+      title={'Asaduzzaman Sunam'}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

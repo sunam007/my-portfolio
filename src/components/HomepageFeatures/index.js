@@ -2,22 +2,35 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+//  JavaScript, React, Next JS, Angular, Redux, RxJS, Typescript, SCSS, Tailwind css,
+// Ant Design Framer Motion, Figma IJI, Git & Github, Express JS, MongoDB, Firebase,
+// Material UI,
+
 const FeatureList = [
   {
-    title: 'Programming Languages',
+    title: 'Professional Skills',
     Svg: require('@site/static/img/programming-monitor.svg').default,
     description: (
       <>
       <div id="programming-languages">
           <ul>
-              <li>Java</li>
-              <li>Python</li>
-              <li>TypeScript</li>
-              <li>SQL</li>
-              <li>C</li>
-              <li>Go</li>
               <li>JavaScript</li>
-              <li>Scheme</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Next JS</li>
+              <li>Node JS</li>
+              <li>Nest JS</li>
+              <li>Express JS</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Tailwind css</li>
+              <li>Ant Design</li>
+              <li>Firebase</li>
+              <li>Git & Github</li>
+              <li>C</li>
+              <li>C</li>
+              <li>C</li>
+              <li>C</li>
           </ul>
       </div>
       </>
@@ -28,10 +41,10 @@ const FeatureList = [
     Svg: require('@site/static/img/smartphone.svg').default,
     description: (
       <>
-        <b>Name:</b> Logan Zehm<br></br>
-        <b>Email:</b> loganzehm@gmail.com<br></br>
-        <b>Linkedin:</b> <a href="https://www.linkedin.com/in/logan-zehm/" target="_blank">linkedin.com/in/logan-zehm</a><br></br>
-        <b>Github:</b> <a href="https://github.com/Logon27" target="_blank">github.com/Logon27</a><br></br>
+        <b>Name:</b>Asaduzzaman Sunam<br></br>
+        <b>Email:</b> asaduzzaman.sunam@gmail.com<br></br>
+        <b>Linkedin:</b> <a href="https://www.linkedin.com/in/asaduzzaman-sunam/" target="_blank">linkedin.com/in/asaduzzaman-sunam</a><br></br>
+        <b>Github:</b> <a href="https://github.com/sunam007" target="_blank">github.com/sunam007</a><br></br>
       </>
     ),
   },
