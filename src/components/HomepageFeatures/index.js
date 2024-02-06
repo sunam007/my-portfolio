@@ -21,16 +21,14 @@ const FeatureList = [
               <li>Node JS</li>
               <li>Nest JS</li>
               <li>Express JS</li>
+              <li>Prisam</li>
               <li>PostgreSQL</li>
               <li>MongoDB</li>
+              <li>Bootstrap</li>
               <li>Tailwind css</li>
               <li>Ant Design</li>
               <li>Firebase</li>
               <li>Git & Github</li>
-              <li>C</li>
-              <li>C</li>
-              <li>C</li>
-              <li>C</li>
           </ul>
       </div>
       </>

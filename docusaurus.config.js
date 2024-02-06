@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Portfolio',
   tagline: 'Check out my cool projects',
-  url: 'https://logon27.github.io/',
+  url: 'https://sunam007.github.io/',
   baseUrl: '/Portfolio/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Logon27', // Usually your GitHub org/user name.
+  organizationName: 'sunam007', // Usually your GitHub org/user name.
   projectName: 'Portfolio', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -55,18 +55,18 @@ const config = {
           src: 'img/circular-profile-picture.png',
         },
         items: [
-          {
-            to: 'my-projects/project-viznet',
-            position: 'left',
-            label: 'My Projects',
-            sidebarId: 'projectsSidebar'
-          },
-          {
-            to: 'my-certs/mycerts',
-            position: 'left',
-            label: 'My Certs',
-            sidebarId: 'myCerts'
-          },
+          // {
+          //   to: 'my-projects/project-viznet',
+          //   position: 'left',
+          //   label: 'My Projects',
+          //   sidebarId: 'projectsSidebar'
+          // },
+          // {
+          //   to: 'my-certs/mycerts',
+          //   position: 'left',
+          //   label: 'My Certs',
+          //   sidebarId: 'myCerts'
+          // },
           {
             to: 'about/aboutme',
             position: 'left',
@@ -74,7 +74,7 @@ const config = {
             sidebarId: 'aboutSidebar'
           },
           {
-            href: 'https://github.com/Logon27',
+            href: 'https://github.com/sunam007',
             position: 'right',
             className: 'navbar-icon',
             'aria-label': 'GitHub Repository',
@@ -134,7 +134,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Logan Zehm`,
+        copyright: `Copyright © ${new Date().getFullYear()} || Asaduzzaman Sunam`,
       },
       prism: {
         theme: lightCodeTheme,

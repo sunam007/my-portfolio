@@ -5,20 +5,32 @@
 <img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.png').default} alt="profile-picture"/>
 
 <div id='profile-name'>
-  <h2>Logan Zehm</h2>
-  <h3>Software Developer @ General Motors</h3>
+  <h2>Asaduzzaman Sunam</h2>
+  <h3>Junior Fullstack Developer @ Bitpixel Software Solutions</h3>
 </div>
 
 ---
 
 <div id='profile-text'>
+
 <p>
-My name is Logan Zehm. I currently work for General Motors as a software developer. I prefer more backend or devops work, but I consider myself to be a fullstack developer. If you have ever heard the phrase "jack of all trades. master of none". I think that phrase describes me pretty well. I like to learn new things and get my hands dirty with a little bit of everything if possible. While some people like to hyperfocus in one aspect of computing I like to take a broader vision. I like to have a decent understanding of everything so I have a breadth of knowledge. This helps me understand the larger flow. If you understand all the little things then the bigger picture becomes clear. I believe this is what has made me exceedingly good at debugging and solving problems over the years.
+Hello there! I'm just a Junior Full-Stack Developer who's really passionate about making cool stuff on the web. I've been at it for about a year now, and let me tell you, it's been quite a journey!
 </p>
 <p>
-I have a personal interest in artificial intelligence and deep learning. I have create various neural networks from scratch without a framework (following my philosophy). Lately, I have just been trying to apply neural networks to various tasks and experimenting with different architectures. I have even made a neural network visualization program. I hope to continue developing my knowledge and start implementing some of my own neural network algorithms I have brainstormed over the past few years. Long term I would like to work on autonomous vehicles or autonomous manufacturing robots.
+It all started back in college when I was studying electrical engineering. I didn't know a thing about programming until I took this course on C++ in my third semester. Honestly, I was terrified of it. The way the teacher explained things just made it seem so complex. But you know what? Despite my fears, there was this one thing I loved doing – tinkering around with Arduino projects. It was like my little escape.
 </p>
+<p>
+Then, in 2018, I stumbled upon Python. It had this simpler way of doing things that clicked with me. Even while I was working at a power plant as an electrical engineer in 2019, I found myself spending my free time learning Python. It was slow progress, but I was determined to conquer my fear of programming.
+</p>
+<p>
+Fast forward to today, and here I am, a Junior Software Developer. It's crazy how life takes unexpected turns, isn't it? I've picked up a bunch of skills along the way, like working with NestJS, React, and all sorts of other tech stuff. But I'm always learning, always trying to get better.
+</p>
+<p>
+Outside of work, I've got this thing for photography. It's been a hobby of mine for a while, and I even had some of my photos displayed at the National Museum of Bangladesh. I guess you could say I've got a bit of a creative side too.
+</p>
+
 <p style={{marginBottom:0}}>
-Aside from deep learning projects I dabble in a little bit of everything. This portfolio site showcases a fraction of the projects I have done over the years. I have written my own shell in C. I have written my own assembler and accompanying simulator for that assembler. I have written my own digit recognition canvas application. I have written a data cache simulator. I have created personal automation tools for my desktop. I have written ability trackers for video games. You name it and I have probably attempted to program it or read about it.
+So yeah, that's me in a nutshell – just a regular guy who's passionate about problem-solving and making cool things on the web. I'm based in Dhaka, Bangladesh, and I'm excited to see where this journey takes me next.
 </p>
+
 </div>
