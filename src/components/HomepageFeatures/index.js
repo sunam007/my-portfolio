@@ -21,7 +21,7 @@ const FeatureList = [
               <li>Node JS</li>
               <li>Nest JS</li>
               <li>Express JS</li>
-              <li>Prisam</li>
+              <li>Prisma</li>
               <li>PostgreSQL</li>
               <li>MongoDB</li>
               <li>Bootstrap</li>
@@ -51,10 +51,9 @@ const FeatureList = [
     Svg: require('@site/static/img/edit-tools-ruler.svg').default,
     description: (
       <>
-        <p className={styles.miscSkills}>Docker</p>
-        <p className={styles.miscSkills}>Kubernetes</p>
-        <p className={styles.miscSkills}>Azure Cloud</p>
-        <p className={styles.miscSkills}>Azure Pipelines</p>
+        <p className={styles.miscSkills}>React Query</p>
+        <p className={styles.miscSkills}>Next Auth</p>
+        <p className={styles.miscSkills}>Firebase</p>
       </>
     ),
   },

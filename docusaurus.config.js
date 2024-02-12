@@ -56,22 +56,28 @@ const config = {
         },
         items: [
           {
-            to: 'my-projects/project-viznet',
+            to: 'my-projects/espd',
             position: 'left',
             label: 'My Projects',
             sidebarId: 'projectsSidebar'
           },
-          {
-            to: 'my-certs/mycerts',
-            position: 'left',
-            label: 'My Certs',
-            sidebarId: 'myCerts'
-          },
+          // {
+          //   to: 'my-certs/mycerts',
+          //   position: 'left',
+          //   label: 'My Certs',
+          //   sidebarId: 'myCerts'
+          // },
           {
             to: 'about/aboutme',
             position: 'left',
             label: 'About Me',
             sidebarId: 'aboutSidebar'
+          },
+          {
+            href:"https://drive.google.com/file/d/17uJ4ZsLwjLf3FMPzJRxDiQu81jN_0jfy/view?usp=sharing",
+            position: 'right',
+            label: 'Resume',
+            sidebarId: 'resumeSidebar'
           },
           {
             href: 'https://github.com/sunam007',

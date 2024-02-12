@@ -24,25 +24,16 @@ const sidebars = {
   // items: ['my-projects/huffman','my-projects/testing'],
 
   projectsSidebar: [
-    'my-projects/project-viznet',
-    'my-projects/socket-chatroom',
-    'my-projects/c-archive',
-    // 'my-projects/geero',
-    // 'my-projects/aeronet',
-    // 'my-projects/digit-recognition-canvas',
-    // 'my-projects/array-sorting-visualized',
+    'my-projects/espd',
+    'my-projects/senior-places',
+    // 'my-projects/c-archive',
+    // 'my-projects/project-viznet',
     // {
     //   type: 'category',
     //   label: 'Assembler / Simulator',
     //   items: ['my-projects/mips-assembler','my-projects/mips-simulator'],
     //   collapsed: false,
     // },
-    // 'my-projects/data-cache-simulator',
-    // 'my-projects/simple-shell',
-    // 'my-projects/notepad-light',
-    // 'my-projects/huffman',
-    // 'my-projects/vigenere-cipher',
-    // 'my-projects/neural-network-canvas',
   ],
 };
 
