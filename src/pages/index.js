@@ -14,13 +14,13 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">Hello, my name is Asaduzzaman Sunam.</h1>
         <h2 className="hero__subtitle">I am a junior fullstack developer.</h2>
-        {/* <div className={styles.buttons}>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="my-projects/project-viznet">
-            Check out some of my personal projects
+            to="my-projects/espd">
+            Check out some of my projects
           </Link>
-        </div> */}
+        </div>
       </div>
     </header>
   );
