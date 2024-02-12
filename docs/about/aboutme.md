@@ -2,7 +2,7 @@
 
 ---
 
-<img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.png').default} alt="profile-picture"/>
+<img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.jpeg').default} alt="profile-picture"/>
 
 <div id='profile-name'>
   <h2>Asaduzzaman Sunam</h2>

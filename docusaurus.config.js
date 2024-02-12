@@ -55,18 +55,18 @@ const config = {
           src: 'img/circular-profile-picture.png',
         },
         items: [
-          // {
-          //   to: 'my-projects/project-viznet',
-          //   position: 'left',
-          //   label: 'My Projects',
-          //   sidebarId: 'projectsSidebar'
-          // },
-          // {
-          //   to: 'my-certs/mycerts',
-          //   position: 'left',
-          //   label: 'My Certs',
-          //   sidebarId: 'myCerts'
-          // },
+          {
+            to: 'my-projects/project-viznet',
+            position: 'left',
+            label: 'My Projects',
+            sidebarId: 'projectsSidebar'
+          },
+          {
+            to: 'my-certs/mycerts',
+            position: 'left',
+            label: 'My Certs',
+            sidebarId: 'myCerts'
+          },
           {
             to: 'about/aboutme',
             position: 'left',
