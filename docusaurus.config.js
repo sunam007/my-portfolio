@@ -9,7 +9,7 @@ const config = {
   title: 'Portfolio',
   tagline: 'Check out my cool projects',
   url: 'https://sunam007.github.io/',
-  baseUrl: '/Portfolio/',
+  baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
