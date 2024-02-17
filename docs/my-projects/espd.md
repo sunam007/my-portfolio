@@ -25,7 +25,6 @@ ESPD is an innovative online platform bridging the gap between students and qual
 - **Backend**: Nest.js, Prisma, PostgreSQL
 - **Admin Panel**: React.js, Ant Design, Redux, React Query
 - **Version Control**: Git, GitHub
-- **Containerization**: Docker
 
 ### My Contributions:
 As a junior full-stack developer, I played a pivotal role in integrating backend APIs with the frontend, developing key features such as search and filtering, pagination, favorites, booking, FAQ, and "Find me a tutor." I also contributed to backend API development using Nest.js, Prisma, and PostgreSQL. Despite facing initial challenges and errors typical of a first industry-level project, I persevered with the support of my team, learning valuable debugging techniques and expanding my knowledge of frontend and backend technologies.

@@ -14,11 +14,22 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">Hello, my name is Asaduzzaman Sunam.</h1>
         <h2 className="hero__subtitle">I am a junior fullstack developer.</h2>
+        <br />
+        <br />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="my-projects/espd">
             Check out some of my projects
+          </Link>
+        </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            href="https://drive.google.com/file/d/17uJ4ZsLwjLf3FMPzJRxDiQu81jN_0jfy/view?usp=sharing"
+            >
+            Download my resume
           </Link>
         </div>
       </div>
