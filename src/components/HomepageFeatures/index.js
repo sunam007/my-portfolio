@@ -27,7 +27,6 @@ const FeatureList = [
               <li>Bootstrap</li>
               <li>Tailwind css</li>
               <li>Ant Design</li>
-              <li>Firebase</li>
               <li>Git & Github</li>
           </ul>
       </div>
@@ -67,7 +66,8 @@ function Feature({Svg, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        {/* <p>{description}</p> */}
+        <>{description}</>
       </div>
     </div>
   );
