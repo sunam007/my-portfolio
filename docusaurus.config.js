@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const resume_url = "https://drive.google.com/file/d/1KGYactzl3EfUs7NavuLJ9yiWW_HEckMd/view?usp=sharing"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -74,7 +75,7 @@ const config = {
             sidebarId: 'aboutSidebar'
           },
           {
-            href:"https://drive.google.com/file/d/17uJ4ZsLwjLf3FMPzJRxDiQu81jN_0jfy/view?usp=sharing",
+            href: resume_url,
             position: 'right',
             label: 'Resume',
             sidebarId: 'resumeSidebar'

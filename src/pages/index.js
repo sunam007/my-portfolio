@@ -9,25 +9,29 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const resume_url = "https://drive.google.com/file/d/1KGYactzl3EfUs7NavuLJ9yiWW_HEckMd/view?usp=sharing"
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.heroImage)}>
       <div className="container">
-        <h1 className="hero__title">Hello, my name is Asaduzzaman Sunam.</h1>
+        <div>
+        <h1 className="hero__title">
+          <span className="hero__span"> hello world ,</span> I'm Asaduzzaman Sunam.</h1>
         <h2 className="hero__subtitle">I am a junior fullstack developer.</h2>
+        </div>
         <br />
         <br />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="my-projects/espd">
-            Check out some of my projects
+            Check out my projects
           </Link>
         </div>
         <br />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            href="https://drive.google.com/file/d/17uJ4ZsLwjLf3FMPzJRxDiQu81jN_0jfy/view?usp=sharing"
+            href={resume_url}
             >
             Download my resume
           </Link>
