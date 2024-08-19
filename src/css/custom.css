@@ -197,6 +197,13 @@ hr {
   justify-content: flex-end;
 }
 
+@media screen and (min-width: 610px) and (max-width: 995px) {
+  .contact__container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .contact__info__div {
   display: flex;
   flex-direction: column;
@@ -208,4 +215,3 @@ hr {
     font-size: 1.6rem;
   }
 }
-
