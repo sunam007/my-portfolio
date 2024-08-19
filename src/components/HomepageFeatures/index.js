@@ -1,6 +1,6 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import React from "react";
+import styles from "./styles.module.css";
 
 //  JavaScript, React, Next JS, Angular, Redux, RxJS, Typescript, SCSS, Tailwind css,
 // Ant Design Framer Motion, Figma IJI, Git & Github, Express JS, MongoDB, Firebase,
@@ -8,65 +8,93 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Professional Skills',
-    Svg: require('@site/static/img/programming-monitor.svg').default,
+    title: "Professional Skills",
+    Svg: require("@site/static/img/programming-monitor.svg").default,
     description: (
       <>
-      <div id="programming-languages">
+        <div id="programming-languages">
           <ul>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>React</li>
-              <li>Next JS</li>
-              <li>Node JS</li>
-              <li>Nest JS</li>
-              <li>Express JS</li>
-              <li>Prisma</li>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-              <li>Bootstrap</li>
-              <li>Tailwind css</li>
-              <li>Ant Design</li>
-              <li>Git & Github</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Next JS</li>
+            <li>Node JS</li>
+            <li>Nest JS</li>
+            <li>Git</li>
+            <li>Express JS</li>
+            <li>Prisma</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Tailwind css</li>
+            <li>Ant Design</li>
           </ul>
-      </div>
+          <br />
+        </div>
       </>
     ),
   },
   {
-    title: 'Contact Information',
-    Svg: require('@site/static/img/smartphone.svg').default,
+    title: "Contact Information",
+    Svg: require("@site/static/img/smartphone.svg").default,
     description: (
       <>
-        <b>Name:</b>Asaduzzaman Sunam<br></br>
-        <b>Email:</b> asaduzzaman.sunam@gmail.com<br></br>
-        <b>Linkedin:</b> <a href="https://www.linkedin.com/in/asaduzzaman-sunam/" target="_blank">linkedin.com/in/asaduzzaman-sunam</a><br></br>
-        <b>Github:</b> <a href="https://github.com/sunam007" target="_blank">github.com/sunam007</a><br></br>
+        <b>Name: </b>Asaduzzaman Sunam<br></br>
+        <b>Github: </b>
+        <a href="https://github.com/sunam007" target="_blank">
+          github.com/sunam007
+        </a>
+        <br></br>
+        <b>Phone:</b> <a>+8801849-715021</a>
+        <br />
+        <b>Email:</b> <a>asaduzzaman.sunam@gmail.com</a>
+        <br />
+        <br />
       </>
     ),
   },
   {
-    title: 'Misc Skills',
-    Svg: require('@site/static/img/edit-tools-ruler.svg').default,
+    title: "Work Experience",
+    Svg: require("@site/static/img/edit-tools-ruler.svg").default,
     description: (
       <>
-        <p className={styles.miscSkills}>React Query</p>
-        <p className={styles.miscSkills}>Next Auth</p>
-        <p className={styles.miscSkills}>Firebase</p>
+        {/* Experience 1 */}
+        <p className={styles.miscSkills}>
+          <b> Jr. Frontend Developer </b>
+          <br />
+          <p>
+            M4YOURS IT <br />(<em> May 2024 - Present </em> )
+          </p>
+        </p>
+        {/* Experience 2 */}
+        <p className={styles.miscSkills}>
+          <b> Jr. Fullstack Developer </b>
+          <br />
+          <p>
+            Bitpixel Software Solutions <br />(
+            <em>August 2023 - April 2024 </em> )
+          </p>
+        </p>
+        {/* Experience 3 */}
+        <p className={styles.miscSkills}>
+          <b> Freelancing </b>
+          <br />
+          <p>
+            (<em> February 2023 - July 2023 </em> )
+          </p>
+        </p>
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        {/* <p>{description}</p> */}
         <>{description}</>
       </div>
     </div>

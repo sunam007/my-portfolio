@@ -1,45 +1,46 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const resume_url = "https://drive.google.com/file/d/1KGYactzl3EfUs7NavuLJ9yiWW_HEckMd/view?usp=sharing"
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const resume_url =
+  "https://drive.google.com/file/d/1HKWuss6ygb_LKQey9Nkzd0bs_7eM8FfP/view?usp=drive_link";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Portfolio',
-  tagline: 'Check out my cool projects',
-  url: 'https://sunam007.github.io/',
-  baseUrl: '/',
+  title: "Portfolio",
+  tagline: "Check out my cool projects",
+  url: "https://sunam007.github.io/",
+  baseUrl: "/",
   trailingSlash: false,
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/circular-profile-picture.png',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/circular-profile-picture.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'sunam007', // Usually your GitHub org/user name.
-  projectName: 'Portfolio', // Usually your repo name.
+  organizationName: "sunam007", // Usually your GitHub org/user name.
+  projectName: "Portfolio", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -49,18 +50,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Homepage',
+        title: "Homepage",
         hideOnScroll: false,
         logo: {
-          alt: 'My Github Profile Pic',
-          src: 'img/circular-profile-picture.png',
+          alt: "My Github Profile Pic",
+          src: "img/circular-profile-picture.png",
         },
         items: [
           {
-            to: 'my-projects/espd',
-            position: 'left',
-            label: 'My Projects',
-            sidebarId: 'projectsSidebar'
+            to: "my-projects/espd",
+            position: "left",
+            label: "My Projects",
+            sidebarId: "projectsSidebar",
           },
           // {
           //   to: 'my-certs/mycerts',
@@ -69,22 +70,22 @@ const config = {
           //   sidebarId: 'myCerts'
           // },
           {
-            to: 'about/aboutme',
-            position: 'left',
-            label: 'About Me',
-            sidebarId: 'aboutSidebar'
+            to: "about/aboutme",
+            position: "left",
+            label: "About Me",
+            sidebarId: "aboutSidebar",
           },
           {
             href: resume_url,
-            position: 'right',
-            label: 'Resume',
-            sidebarId: 'resumeSidebar'
+            position: "right",
+            label: "Resume",
+            sidebarId: "resumeSidebar",
           },
           {
-            href: 'https://github.com/sunam007',
-            position: 'right',
-            className: 'navbar-icon',
-            'aria-label': 'GitHub Repository',
+            href: "https://github.com/sunam007",
+            position: "right",
+            className: "navbar-icon",
+            "aria-label": "GitHub Repository",
             html: `<svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -99,7 +100,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         // links: [
         //   {
         //     title: 'Docs',
@@ -146,10 +147,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['java', 'python'],
+        // additionalLanguages: ["java", "python"],
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },

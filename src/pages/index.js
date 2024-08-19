@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const resume_url = "https://drive.google.com/file/d/1KGYactzl3EfUs7NavuLJ9yiWW_HEckMd/view?usp=sharing"
+  const resume_url = "https://drive.google.com/file/d/1HKWuss6ygb_LKQey9Nkzd0bs_7eM8FfP"
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.heroImage)}>
       <div className="container">
