@@ -13,6 +13,7 @@ const FeatureList = [
     description: (
       <>
         <div id="programming-languages">
+          <br />
           <ul>
             <li>JavaScript</li>
             <li>TypeScript</li>
@@ -34,29 +35,11 @@ const FeatureList = [
     ),
   },
   {
-    title: "Contact Information",
-    Svg: require("@site/static/img/smartphone.svg").default,
-    description: (
-      <>
-        <b>Name: </b>Asaduzzaman Sunam<br></br>
-        <b>Github: </b>
-        <a href="https://github.com/sunam007" target="_blank">
-          github.com/sunam007
-        </a>
-        <br></br>
-        <b>Phone:</b> <a>+8801849-715021</a>
-        <br />
-        <b>Email:</b> <a>asaduzzaman.sunam@gmail.com</a>
-        <br />
-        <br />
-      </>
-    ),
-  },
-  {
     title: "Work Experience",
     Svg: require("@site/static/img/edit-tools-ruler.svg").default,
     description: (
       <>
+        <br />
         {/* Experience 1 */}
         <p className={styles.miscSkills}>
           <b> Jr. Frontend Developer </b>
@@ -82,6 +65,36 @@ const FeatureList = [
             (<em> February 2023 - July 2023 </em> )
           </p>
         </p>
+      </>
+    ),
+  },
+  {
+    title: "Contact Information",
+    Svg: require("@site/static/img/smartphone.svg").default,
+    description: (
+      <>
+        <div className="contact__container">
+          <div className="contact__info__div">
+            <br />
+            <p>
+              <b>Name: </b>Asaduzzaman Sunam
+            </p>
+            <p>
+              <b>Github: </b>
+              <a href="https://github.com/sunam007" target="_blank">
+                github.com/sunam007
+              </a>
+            </p>
+            <p>
+              <b>Phone:</b> <a>+8801849-715021</a>
+            </p>
+            <p>
+              <b>Email:</b> <a>asaduzzaman.sunam@gmail.com</a>
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
       </>
     ),
   },
