@@ -14,7 +14,7 @@
 <div id='profile-text'>
 
 <p>
-Hello there! I'm just a Junior Full-Stack Developer who's really passionate about making cool stuffs on the web. I've been professionally at it for more than 1.5 years, and it's been quite a journey!
+Hello there! I'm a Fullstack JavaScript Developer who's really passionate about making cool stuffs on the web. I've been professionally at it for more than 1.5 years, and it's been quite a journey!
 </p>
 
 <p>

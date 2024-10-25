@@ -9,8 +9,10 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
   const resume_url =
-    "https://drive.google.com/file/d/1HKWuss6ygb_LKQey9Nkzd0bs_7eM8FfP";
+    "https://drive.google.com/file/d/1Hmxqs_EYGzDg1IdHuoLNjpMkHmrdiobJ"
+
   return (
     <header
       className={clsx(

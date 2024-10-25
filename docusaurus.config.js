@@ -4,7 +4,7 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const resume_url =
-  "https://drive.google.com/file/d/1HKWuss6ygb_LKQey9Nkzd0bs_7eM8FfP/view?usp=drive_link";
+  "https://drive.google.com/file/d/1Hmxqs_EYGzDg1IdHuoLNjpMkHmrdiobJ";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {

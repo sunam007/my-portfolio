@@ -42,27 +42,28 @@ const FeatureList = [
         <br />
         {/* Experience 1 */}
         <p className={styles.miscSkills}>
-          <b> Jr. Frontend Developer </b>
+          <b> Fullstack JS Developer </b>
           <br />
           <p>
-            M4YOURS IT <br />(<em> May 2024 - Present </em> )
+            IT Corner Ltd. <br />(<em> August 2024 - Present </em> )
           </p>
         </p>
         {/* Experience 2 */}
         <p className={styles.miscSkills}>
-          <b> Jr. Fullstack Developer </b>
+          <b> Jr. MERN-stack Developer </b>
           <br />
           <p>
             Bitpixel Software Solutions <br />(
-            <em>August 2023 - April 2024 </em> )
+            <em>June 2023 - August 2024 </em> )
           </p>
         </p>
         {/* Experience 3 */}
         <p className={styles.miscSkills}>
-          <b> Freelancing </b>
+          <b> Web Developer ( intern ) </b>
           <br />
           <p>
-            (<em> February 2023 - July 2023 </em> )
+            Bitpixel Software Solutions <br />
+            (<em> April 2023 - June 2023 </em> )
           </p>
         </p>
       </>
